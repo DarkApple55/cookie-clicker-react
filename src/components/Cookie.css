@@ -1,0 +1,7 @@
+.cookie-img{
+  display: flex;
+  margin: auto;
+  -webkit-user-drag: none;
+  max-width: 100%;
+  /* border: 2px black solid; */
+}

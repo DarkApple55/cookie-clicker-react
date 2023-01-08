@@ -1,0 +1,3 @@
+BUG: cuando haces click antes de que se guarden los datos de la BD, no se guardan
+
+HACER: una barrita de progreso con los logros

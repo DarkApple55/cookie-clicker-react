@@ -1,0 +1,17 @@
+.cookies-count-text{
+    margin: 0;
+    text-align: center;
+}
+.cookies-count-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

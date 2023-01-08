@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script defer script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="https://fabulous-cookies.com/files/2019/09/cookie.png" />
+    <link rel="stylesheet" href="styles.css" >
+    <script defer src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>🍪 Cookie Cliker 🍪 :)</title>
+</head>
+<body id="root">
+   <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="cookie-container">
+                    <div class="cookies-count-container">
+                        <p class="cookies-count-text" id="cookies-count">Galletitas: 0</p>
+                        <p class="cookies-count-text" id="cps-count">CPS: 0</p>
+                    </div>
+                    <img class="cookie-img" src="/favicon.ico" draggable="false" onclick="fclick()">
+                </div>
+            </div>
+            <div class="col-3 section-info">
+                <section class="info-generador d-none" id="info-generador">
+                </section>
+            </div>
+            <div class="col-3">
+                <section class="lista-mejoras">
+                    <section class="lista-generadores" id="lista-generadores" >
+                    </section>
+                    <section class="lista-powerups">
+
+                    </section>
+                </section>
+            </div>
+            <div class="col-3 col-mensaje" id="col-mensaje">
+                <div id="mensaje" class="d-none"></div>
+            </div>
+        </div>
+   </div> 
+</body>
+</html>

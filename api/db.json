@@ -1,0 +1,45 @@
+{
+  "user": {
+    "cookies": 500,
+    "cps": 0,
+    "click": 1,
+    "gens": [
+      {
+        "id": 0,
+        "unlocked": true,
+        "nombre": "cursor",
+        "nombrePl": "cursores",
+        "img": "cursor.png",
+        "precio": 15,
+        "cps": 1,
+        "cant": 0,
+        "prod": 0
+      },
+      {
+        "id": 1,
+        "unlocked": true,
+        "nombre": "abuela",
+        "nombrePl": "abuelas",
+        "img": "abuela.png",
+        "precio": 100,
+        "cps": 5,
+        "cant": 0,
+        "prod": 0
+      },
+      {
+        "id": 2,
+        "unlocked": true,
+        "nombre": "granja",
+        "nombrePl": "granjas",
+        "img": "granja.png",
+        "precio": 300,
+        "cps": 12,
+        "cant": 0,
+        "prod": 0
+      }
+    ],
+    "logros": [
+      {}
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+.app-container{
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh !important;
+}
+.col-3{
+  padding: 0 !important;
+}
+.cookie-container{
+  height: 100vh;
+  background-image: url("/public/img/madera.png");
+  border-right: 15px solid;
+  /* border-image: url("/public/img/madera-borde.png") 90; */
+}
+.cookie-container button{
+  margin: 1rem !important;
+}
+
+.tienda-container{
+  height: 100vh;
+  background-image: url("/public/img/madera.png");
+  border-left: 15px solid;
+  /* border-image: url("/public/img/madera-borde.png") 90; */
+}
