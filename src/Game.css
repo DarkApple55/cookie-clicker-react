@@ -8,7 +8,7 @@
 }
 .cookie-container{
   height: 100vh;
-  background-image: url("/public/img/madera.png");
+  background-image: url("/public/img/cookie-bg.png");
   border-right: 15px solid;
   /* border-image: url("/public/img/madera-borde.png") 90; */
 }
@@ -21,4 +21,6 @@
   background-image: url("/public/img/madera.png");
   border-left: 15px solid;
   /* border-image: url("/public/img/madera-borde.png") 90; */
+  display: flex;
+  flex-direction: column;
 }

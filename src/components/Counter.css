@@ -1,11 +1,13 @@
 .cookies-count-text{
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather';
+  color: white;
 }
 .cookies-count-container{
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 3rem;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.1);
 }
 .unselectable {
@@ -14,4 +16,19 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+#cookies-count{
+  font-size: 1.6rem;
+}
+#cps-count{
+  font-size: 1rem;
+}
+.gen-rojo{
+  color: red;
+}
+.gen-verde{
+  color: green;
+}
+#click-count{
+  font-size: 0.8rem !important;
 }

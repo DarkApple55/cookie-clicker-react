@@ -1,0 +1,23 @@
+.lista-powerups{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1rem;
+    border-top: 15px solid;
+    border-bottom: 15px solid;
+    /* border-image: url("/public/img/madera-borde.png") 90; */
+}
+.powerup{
+    display: flex;
+    --side: 64px;
+    width: var(--side);
+    height: var(--side);
+    /* aspect-ratio: 1 / 1; */
+    background-color: grey;
+    border-top: 7px rgba(0, 0, 0, 0.2) solid;
+    border-left: 7px rgba(0, 0, 0, 0.2) solid;
+    border-bottom: 7px rgba(0, 0, 0, 0.5) solid;
+    border-right: 7px rgba(0, 0, 0, 0.5) solid;
+    cursor: pointer;
+    flex-direction: row;
+}

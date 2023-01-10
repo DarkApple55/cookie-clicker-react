@@ -44,3 +44,23 @@
     padding: 5px;
     -webkit-user-drag: none;
 }
+.info-precio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    margin-top: 5px !important;
+}
+.gen-precio{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.gen-cant{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 5px;
+    font-size: -webkit-xxx-large;
+}

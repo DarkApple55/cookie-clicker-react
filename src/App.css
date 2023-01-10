@@ -11,3 +11,7 @@
     background-image: url("/public/img/background.png");
     background-size: cover;
 }
+
+.cookie-icon{
+    height: 1rem;
+}

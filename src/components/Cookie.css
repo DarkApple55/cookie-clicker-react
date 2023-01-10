@@ -3,5 +3,9 @@
   margin: auto;
   -webkit-user-drag: none;
   max-width: 100%;
-  /* border: 2px black solid; */
+  border: 2px black solid;
+  border-radius: 50%;
+  animation-duration: 0.5s !important;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
