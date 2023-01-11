@@ -14,7 +14,7 @@ const PowerUps = ({user, getUser, printUser}) => {
             </div>
             <div class='col-9' style="margin-top: 0.3rem;">
                 <div class="row">
-                    <div class="col-9"><h4>${firstuppercase(powerup.nombre)}</h4></div>
+                    <div class="col-9"><h5>${firstuppercase(powerup.nombre)}</h5></div>
                     <div class="col-3 info-precio"><img src="/favicon.ico" class="cookie-icon"/><span id=${powerup.id}-precio>${powerup.precio}</span></div>
                 </div>
                 <span><i>${powerup.desc}</i></span>

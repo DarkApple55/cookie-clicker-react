@@ -7,7 +7,7 @@ const App = () => {
     }
     const defaultUser = {
         "nombre": "Fábrica :V",
-        "cookies": 1000,
+        "cookies": 0,
         "cps": 0,
         "click": 1,
         "total": 0,
@@ -55,7 +55,7 @@ const App = () => {
             "owned": false,
             "nombre": "Doble click",
             "desc": "Duplica la eficiencia del click y cursores.",
-            "img": "goldenclick.png",
+            "img": "click.png",
             "precio": 100,
             "action": "click"
           },
@@ -64,7 +64,7 @@ const App = () => {
             "owned": false,
             "nombre": "Click cuádruple",
             "desc": "Duplica la eficiencia del click y cursores.",
-            "img": "goldenclick.png",
+            "img": "click.png",
             "precio": 500,
             "action": "click"
           },
@@ -73,7 +73,7 @@ const App = () => {
             "owned": false,
             "nombre": "Mejores abuelas!",
             "desc": "Duplica la eficiencia de las abuelas.",
-            "img": "goldenclick.png",
+            "img": "abuela.png",
             "precio": 1000,
             "action": "abuela"
           }
