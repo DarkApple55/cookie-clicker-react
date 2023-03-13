@@ -55,11 +55,11 @@ const Generadores = ({user, printUser, getUser}) => {
     }
     function desactivarInfo() {document.getElementById("info-generador").classList.add("d-none")}
 
-    document.addEventListener('mousemove', function(e) {
+    document.addEventListener('mousemove', e => {
         let infoGenerador = document.getElementById('info-generador');
         let right = document.getElementById("g-cursor").offsetLeft
         let top = e.y;
-        infoGenerador.style.left = right - 394 + 'px';
+        infoGenerador.style.left = right - 494 + 'px';
         infoGenerador.style.top = top + 'px';
     });
     return (<>
